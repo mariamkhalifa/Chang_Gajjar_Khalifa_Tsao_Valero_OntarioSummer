@@ -1,4 +1,8 @@
 export default {
-    template: `<h1>Subscribe Component</h1>`
+    template: `
+    <section class="subscribe">
+        <h1>Subscribe to the summer vibes</h1>
+    </section>
+    `
 
 }

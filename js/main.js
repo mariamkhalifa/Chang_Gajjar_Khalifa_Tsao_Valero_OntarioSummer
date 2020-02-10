@@ -1,6 +1,5 @@
 // 2. import components we can request and render
 import HomeComponent from "./modules/HomeComponent.js";
-import AboutComponent from "./modules/AboutComponent.js";
 import DestinationsComponent from "./modules/DestinationsComponent.js";
 import SubscribeComponent from "./modules/SubscribeComponent.js";
 import ErrorComponent from "./modules/ErrorComponent.js";
@@ -11,7 +10,6 @@ import ErrorComponent from "./modules/ErrorComponent.js";
 //    the wildcard must be last
 const routes = [
     { path: '/', name: 'home', component: HomeComponent },
-    { path: '/about', name: 'about', component: AboutComponent },
     { path: '/destinations', name: 'destinations', component: DestinationsComponent },
     { path: '/subscribe', name: 'subscribe', component: SubscribeComponent },
     { path: '*', name: 'error', component: ErrorComponent }
