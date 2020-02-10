@@ -8,16 +8,25 @@
     <!-- see Vue Router: Introduction (https://router.vuejs.org/guide/#html) -->
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-    <title>Routing With Vue</title>
+    <title>Ontario Summer</title>
 </head>
 <body>
     <main id="app">
-        <!-- nav links - get transpiled to anchor tags -->
-        <router-link to="/">Go to Splash</router-link>
-        <router-link to="/app">Go to App</router-link>
-        <!-- router-view is like a {{{ body }}} in Handlebars -->
-        <!-- components are rendered here -->
+        <header class="header">
+            <router-link to="/"><img src="logo.svg" alt="logo"></router-link>
+            <ul class="nav">
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/about">About</router-link></li>
+                <li><router-link to="/destinations">Destinations</router-link></li>
+                <li><router-link to="/subscribe">Subscribe</router-link></li>
+            </ul>
+        <header>
+        
         <router-view></router-view>
+
+        <footer>
+            <p>&copy; Ontario Summer 2020. All Rights Reserved.</p>
+        </footer>
     </main>
     <script src="js/main.js" type="module"></script>
 </body>
