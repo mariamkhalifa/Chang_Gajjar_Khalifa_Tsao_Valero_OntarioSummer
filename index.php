@@ -16,12 +16,12 @@
     <main id="app">
         <header class="header">
             <router-link to="/"><img src="logo.svg" alt="logo"></router-link>
-            <i class="fa fa-bars fa-2x"></i>
-            <ul class="nav">
-                <li><router-link to="/">Home</router-link></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#destinations">Destinations</a></li>
-                <li><router-link to="/subscribe">Subscribe</router-link></li>
+            <i v-on:click="expandBurger" class="fa fa-bars fa-2x" :class="{'rotated':burger.isExpanded}"></i>
+            <ul class="nav" :class="{'visible':burger.isExpanded}">
+                <li class="nav-link"><router-link to="/">Home</router-link></li>
+                <li class="nav-link"><a href="#about">About</a></li>
+                <li class="nav-link"><a href="#destinations">Destinations</a></li>
+                <li class="nav-link"><router-link to="/subscribe">Subscribe</router-link></li>
             </ul>
         <header>
         

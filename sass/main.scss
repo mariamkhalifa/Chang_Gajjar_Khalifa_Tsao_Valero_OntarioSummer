@@ -1,0 +1,29 @@
+@import '_vars';
+@import 'modules/_header';
+
+/* reset */
+* {
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+
+body {
+    font-family: $copy-font;
+    color: $copy-color;
+}
+
+h1, h2 {
+    color: $heading-color;
+    font-family: $heading-font;
+}
+
+a {
+    color: $copy-color;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+

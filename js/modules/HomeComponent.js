@@ -10,13 +10,13 @@ export default {
             </ul>
             <i class="fa fa-angle-down"></i>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <h1>About Summer in Ontario</h1>
             <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
         </section>
-        <section class="destinations-wrapper">
+        <section id="destinations" class="destinations-wrapper">
             <h1>Where to next?</h1>
             <h2>Ontario is Yours to Explore!</h2>
             <router-link to="/destinations">
@@ -47,11 +47,4 @@ export default {
     </div>
     `,
 
-    created: {
-        
-    },
-
-    data: {
-        
-    }
 }

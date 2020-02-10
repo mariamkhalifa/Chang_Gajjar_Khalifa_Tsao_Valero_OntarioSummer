@@ -23,11 +23,16 @@ const router = new VueRouter({
 // 1. create the vue module
 const vm = new Vue({
     data: {
-
+        burger: {
+            isExpanded: false
+        },
     },
 
     methods: {
-
+        expandBurger() {
+            //console.log('expanded');
+            this.burger.isExpanded = (this.burger.isExpanded) ? false : true;
+        }
     },
 
     router
