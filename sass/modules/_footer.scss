@@ -1,0 +1,21 @@
+.footer {
+    background-color: $main-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px
+    p {
+        margin-top: 20px;
+    }
+}
+
+.f-social-media {
+    display: flex;
+    li:nth-child(2) {
+        margin-left: 10px;
+    }
+    li:nth-child(3) {
+        margin-left: 10px;
+    }
+}
