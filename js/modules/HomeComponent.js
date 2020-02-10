@@ -8,7 +8,7 @@ export default {
                 <li><a href=# target="_blank"><i class="fab fa-twitter"></i></a></li>
                 <li><a href=# target="_blank"><i class="fab fa-facebook"></i></a></li>
             </ul>
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-down fa-2x"></i>
         </section>
         <section id="about" class="about">
             <h1>About Summer in Ontario</h1>
