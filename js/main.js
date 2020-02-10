@@ -1,6 +1,8 @@
 // 2. import components we can request and render
-import SplashComponent from "./modules/SplashComponent.js";
-import AppComponent from "./modules/AppComponent.js";
+import HomeComponent from "./modules/HomeComponent.js";
+import AboutComponent from "./modules/AboutComponent.js";
+import DestinationsComponent from "./modules/DestinationsComponent.js";
+import SubscribeComponent from "./modules/SubscribeComponent.js";
 import ErrorComponent from "./modules/ErrorComponent.js";
 
 // 3. like Express Routes -> router.get ('/', ...) and do something with the request
@@ -8,8 +10,10 @@ import ErrorComponent from "./modules/ErrorComponent.js";
 //    order of paths is important! - Vue tries to match the routes to components from the top down
 //    the wildcard must be last
 const routes = [
-    { path: '/', name: 'splash', component: SplashComponent },
-    { path: '/app', name: 'app', component: AppComponent },
+    { path: '/', name: 'home', component: HomeComponent },
+    { path: '/about', name: 'about', component: AboutComponent },
+    { path: '/destinations', name: 'destinations', component: DestinationsComponent },
+    { path: '/subscribe', name: 'subscribe', component: SubscribeComponent },
     { path: '*', name: 'error', component: ErrorComponent }
 ]
 
