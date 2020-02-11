@@ -19,6 +19,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
+    color: $white;
 }
 
 .rotated {
@@ -34,6 +35,9 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    a {
+        color: $white;
+    }
     li {
         padding-top: 10px;
         text-align: center;
