@@ -1,7 +1,9 @@
-<?php
+export default {
+    template: `
+    <?php
 
-    require_once '../config/database.php';
-    require_once './scripts/login.php';
+    require_once 'includes/config/database.php';
+    require_once 'includes/admin/scripts/login.php';
     // $reqtime = $_SERVER['REQUEST_TIME'];
     $reqtime = date("Y-m-d H:i:s");
 
@@ -20,21 +22,12 @@
             $message = 'Please fill out the required feilds';
         }
     }
+    ?>
+    <section class="subscribe">
+        <h1>Subscribe to the summer vibes</h1>
 
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to Login Page</title>
-</head>
-<body>
-    <section class="subscription">
         <?php echo !empty($message)?$message: ''; ?>
-        <form action="admin_login.php" method="post">
+        <form action="index.php#/signup" method="post">
             <label for="firstname">First Name:</label><br>
             <input type="text" id="firstname" name="firstname" value="" required><br>
 
@@ -298,5 +291,6 @@
             <input name="submit" type="submit" id="submit" value="SUBMIT">
         </form>
     </section>
-</body>
-</html>
+    `
+
+}

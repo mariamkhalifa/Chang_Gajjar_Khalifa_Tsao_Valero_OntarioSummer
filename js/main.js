@@ -1,7 +1,7 @@
 // 2. import components we can request and render
 import HomeComponent from "./modules/HomeComponent.js";
 import DestinationsComponent from "./modules/DestinationsComponent.js";
-import SubscribeComponent from "./modules/SubscribeComponent.js";
+import SignupComponent from "./modules/SignupComponent.js";
 import ErrorComponent from "./modules/ErrorComponent.js";
 
 // 3. like Express Routes -> router.get ('/', ...) and do something with the request
@@ -11,7 +11,7 @@ import ErrorComponent from "./modules/ErrorComponent.js";
 const routes = [
     { path: '/', name: 'home', component: HomeComponent },
     { path: '/destinations', name: 'destinations', component: DestinationsComponent },
-    { path: '/subscribe', name: 'subscribe', component: SubscribeComponent },
+    { path: '/signup', name: 'signup', component: SignupComponent },
     { path: '*', name: 'error', component: ErrorComponent }
 ]
 

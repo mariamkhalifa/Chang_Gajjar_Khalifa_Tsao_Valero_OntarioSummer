@@ -21,7 +21,7 @@
                 <li class="nav-link"><router-link to="/">Home</router-link></li>
                 <li class="nav-link"><a href="#about">About</a></li>
                 <li class="nav-link"><a href="#destinations">Destinations</a></li>
-                <li class="nav-link"><router-link to="/subscribe">Subscribe</router-link></li>
+                <li class="nav-link"><router-link to="/signup">Sign Up</router-link></li>
             </ul>
         <header>
         
