@@ -30,7 +30,7 @@ export default {
                     <img class="destin-img" src="public/images/tile_1.jpg" alt="GTA image">
                     <h3>Greater Toronto Area</h3>
                 </router-link>
-                <router-link to="/destination2">
+                <router-link to="/destination2/">
                     <img class="destin-img" src="public/images/tile_2.jpg" alt="niagara image">
                     <h3>Niagara Region</h3>
                 </router-link>

@@ -1,6 +1,6 @@
 # Ontario Summer
 
-<img src="/public/images/logo.svg" alt="Ontario Summer Logo" width="150">
+<img src="/public/images/logo.svg" alt="Ontario Summer Logo" width="200">
 
 ## Find Yourself At Home.
 

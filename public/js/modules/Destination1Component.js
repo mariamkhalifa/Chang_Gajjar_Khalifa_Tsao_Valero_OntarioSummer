@@ -6,12 +6,10 @@ export default {
 
     template: `
     <section class="destin-comp">
-        <div class="destin-hero">
-            <img v-for="(img, index) in herodata" 
-            class="destin-hero"
-            :key="index"
-            :src="'public/images/' + img.heroimg" alt="hero image">
-        </div>
+        <img v-for="(img, index) in herodata" 
+        class="destin-hero"
+        :key="index"
+        :src="'public/images/' + img.heroimg" alt="hero image">
         <div class="intro">
             <h1>{{ intro.title }}</h1>
             <p>{{ intro.text }}</p>
