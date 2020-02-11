@@ -17,7 +17,7 @@
             //do the login
             $message = signup($fname, $lname, $email, $country, $reqtime);
         }else{
-            $message = 'Please fill out the required fields';
+            $message = '<p class="echoM">Please fill out the required fields</p>';
         }
     }
 
@@ -38,13 +38,11 @@
 </head>
 <body>
     
-    <section class="subscription">
-        <?php echo !empty($message)?$message: ''; ?>
-        <!-- <img class="subBg" src="public/images/sub_ocean.jpg" alt="subscription box background">
-        <img class="subBgt" src="public/images/sub_ocean_t.jpg" alt="subscription box background">
-        <img class="subBgm" src="public/images/sub_ocean_m.jpg" alt="subscription box background"> -->
-        <img id="subExit" src="public/images/No.svg" alt="sub exit">
+    <section class="subscription hidden" id="subscription">
+        
+        <a id="subExit"><img src="public/images/No.svg" alt="sub exit"></a>
         <h2 id="subHead">Subscribe To Travel Tips & Deals</h2>
+        <?php echo !empty($message)?$message: ''; ?>
         <form action="index.php" method="post">
             <div class="input-wrap">
                 <label for="firstname">First Name:</label>

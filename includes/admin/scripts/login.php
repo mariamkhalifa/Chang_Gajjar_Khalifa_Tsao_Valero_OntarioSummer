@@ -44,16 +44,17 @@ function signup($fname, $lname, $email, $country, $reqtime){
             $recipient = $email;
             $subject = "Hello, welcome back to Ontario Summer.";
             $message = '<html><body>';
-            $message .= '<h1>HERRRRRROOOOOOO.</h1>';
-            $message .= '<h2>HERRRRRROOOOOOO.</h2>';
-            $message .= '<h3>HERRRRRROOOOOOO.</h3>';
-            $message .= '<h4>HERRRRRROOOOOOO.</h4>';
-            $message .= '<h5>HERRRRRROOOOOOO.</h5>';
+            // $message .= '<img src="/public/images/email_img.jpg" alt="email greeting">';
+            $message .= '<h2>Welcome Back!</h2>';
+            $message .= '<h3>We are happy to have you back agian.</h3>';
+            $message .= '<h4>Have a wonderful trip in Ontario.</h4>';
+            $message .= '<h5>Sincerely,</h5>';
+            $message .= '<h5>Ontario Summer</h5>';
             $message .= '</body></html>';
             if(mail($recipient, $subject, $message, $headers)){
-                return 'Welcome back! We have sent you a welcome back email.';
+                return '<p class="echoM">Welcome back! We have sent you a welcome back email.</p>';
             }else{
-                return 'Sorry, something went wrong with the email address!';
+                return '<p class="echoM">Sorry, something went wrong with the email address!</p>';
             }
         }
         
@@ -79,16 +80,17 @@ function signup($fname, $lname, $email, $country, $reqtime){
         $recipient = $email;
         $subject = "Hello, welcome to Ontario Summer.";
         $message = '<html><body>';
-        $message .= '<h1>HERRRRRROOOOOOO.</h1>';
-        $message .= '<h2>HERRRRRROOOOOOO.</h2>';
-        $message .= '<h3>HERRRRRROOOOOOO.</h3>';
-        $message .= '<h4>HERRRRRROOOOOOO.</h4>';
-        $message .= '<h5>HERRRRRROOOOOOO.</h5>';
+        // $message .= '<img src="/public/images/email_img.jpg" alt="email greeting">';
+        $message .= '<h2>Welcome!</h2>';
+        $message .= '<h3>We are happy to have you.</h3>';
+        $message .= '<h4>Have a wonderful trip in Ontario.</h4>';
+        $message .= '<h5>Sincerely,</h5>';
+        $message .= '<h5>Ontario Summer</h5>';
         $message .= '</body></html>';
         if(mail($recipient, $subject, $message, $headers)){
-            return 'Subscribed! We have sent you an welcome email!';
+            return '<p class="echoM">Subscribed! We have sent you an welcome email!</p>';
         }else{
-            return 'Sorry, something went wrong with the email address!';
+            return '<p class="echoM">Sorry, something went wrong with the email address!</p>';
         }
         
     }

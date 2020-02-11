@@ -14,12 +14,17 @@
     background: url("../../public/images/sub_ocean.jpg") no-repeat center;
     background-size: cover;
     justify-content: center;
+    .echoM {
+        color: $white;
+        
+    }
     #subExit {
         // position: absolute;
         // width: 10%;
         // right: 0;
         // margin-top: 2%;
         // margin-right: 2%;
+        cursor: pointer;
         margin-left: auto;
         margin-bottom: auto;
     }
