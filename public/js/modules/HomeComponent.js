@@ -20,33 +20,33 @@ export default {
             </ul>
         </section>
         <section id="destinations" class="destin-wrapper">
-            <video autoplay muted loop controls class="video">
+            <video class="video" muted loop controls preload="metadata">
                 <source src="public/video/video.mp4" type="video/mp4">
             </video>
             <h1>Where to Next?</h1>
             <h2>Ontario is Yours to Explore!</h2>
             <div class="destin-links">
-                <router-link to="/destinations">
+                <router-link to="/destination1">
                     <img class="destin-img" src="public/images/tile_1.jpg" alt="GTA image">
                     <h3>Greater Toronto Area</h3>
                 </router-link>
-                <router-link to="/destinations">
+                <router-link to="/destination2">
                     <img class="destin-img" src="public/images/tile_2.jpg" alt="niagara image">
                     <h3>Niagara Region</h3>
                 </router-link>
-                <router-link to="/destinations">
+                <router-link to="/destination3">
                     <img class="destin-img" src="public/images/tile_3.jpg" alt="eastern ontrio image">
                     <h3>Eastern Ontario</h3>
                 </router-link>
-                <router-link to="/destinations">
+                <router-link to="/destination4">
                     <img class="destin-img" src="public/images/tile_4.jpg" alt="central ontario image">
                     <h3>Central Ontario</h3>
                 </router-link>
-                <router-link to="/destinations">
+                <router-link to="/destination5">
                     <img class="destin-img" src="public/images/tile_5.jpg" alt="northern ontario image">
                     <h3>Northern Ontario</h3>
                 </router-link>
-                <router-link to="/destinations">
+                <router-link to="/destination6">
                     <img class="destin-img" src="public/images/tile_6.jpg" alt="south western ontrio image">
                     <h3>South Western Ontario</h3>
                 </router-link>
