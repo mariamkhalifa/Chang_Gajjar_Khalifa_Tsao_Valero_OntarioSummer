@@ -5,6 +5,6 @@
         <li class="nav-link"><router-link to="/">Home</router-link></li>
         <li class="nav-link"><a href="#about">About</a></li>
         <li class="nav-link"><a href="#destinations">Destinations</a></li>
-        <li class="nav-link"><a href="includes/admin/signup.php">Sign Up</a></li>
+        <li class="nav-link"><a id="suOpen" href="#">Sign Up</a></li>
     </ul>
 </header>

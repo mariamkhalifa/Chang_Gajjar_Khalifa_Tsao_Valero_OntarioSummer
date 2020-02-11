@@ -6,14 +6,16 @@ export default {
 
     template: `
     <section class="destin-comp">
-        <img v-for="(img, index) in herodata" 
-        class="destin-hero"
-        :key="index"
-        :src="'public/images/' + img.heroimg" alt="hero image">
+        <div class="destin-hero">
+            <img v-for="(img, index) in herodata" 
+            class="destin-hero"
+            :key="index"
+            :src="'public/images/' + img.heroimg" alt="hero image">
+        </div>
         <div class="intro">
             <h1>{{ intro.title }}</h1>
             <p>{{ intro.text }}</p>
-            <button>Plan Your Itenirary</button>
+            <a href="https://www.inspirock.com/canada/ontario-trip-planner">Plan Your Itinerary</a>
         </div>
         <div class="attract">
             <div v-for="(item, index) in attractdata" class="attract"

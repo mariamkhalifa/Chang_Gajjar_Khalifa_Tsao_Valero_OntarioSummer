@@ -13,7 +13,7 @@ export default {
         <div class="intro">
             <h1>{{ intro.title }}</h1>
             <p>{{ intro.text }}</p>
-            <button>Plan Your Itenirary</button>
+            <a href="https://www.inspirock.com/canada/ontario-trip-planner">Plan Your Itinerary</a>
         </div>
         <div class="attract">
             <div v-for="(item, index) in attractdata" class="attract"
