@@ -1,9 +1,11 @@
+//sass --watch sass:public/css --style compressed
 @import '_vars';
 @import 'modules/_header';
 @import 'modules/_hero';
 @import 'modules/_about';
 @import 'modules/_destin';
 @import 'modules/_footer';
+@import 'modules/_subscription';
 
 /* reset */
 * {

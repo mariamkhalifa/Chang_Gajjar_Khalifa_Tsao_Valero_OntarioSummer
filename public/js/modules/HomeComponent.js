@@ -26,27 +26,27 @@ export default {
             <h1>Where to next?</h1>
             <h2>Ontario is Yours to Explore!</h2>
             <router-link to="/destinations">
-                <img src="images/1.jpg" alt="">
+                <img src="public/images/1.jpg" alt="">
                 <p>Greater Toronto Area</p>
             </router-link>
             <router-link to="/destinations">
-                <img src="images/2.jpg" alt="">
+                <img src="public/images/2.jpg" alt="">
                 <p>Niagara Region</p>
             </router-link>
             <router-link to="/destinations">
-                <img src="images/3.jpg" alt="">
+                <img src="public/images/3.jpg" alt="">
                 <p>Eastern Ontario</p>
             </router-link>
             <router-link to="/destinations">
-                <img src="images/4.jpg" alt="">
+                <img src="public/images/4.jpg" alt="">
                 <p>Central Ontario</p>
             </router-link>
             <router-link to="/destinations">
-                <img src="images/5.jpg" alt="">
+                <img src="public/images/5.jpg" alt="">
                 <p>Northern Ontario</p>
             </router-link>
             <router-link to="/destinations">
-                <img src="images/6.jpg" alt="">
+                <img src="public/images/6.jpg" alt="">
                 <p>South Western Ontario</p>
             </router-link>
         </section>
