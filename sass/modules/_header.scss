@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $main-color;
+    height: 40vh;
+}
+
+.logo {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #666;
+}
+
+.fa-bars {
+    transition: all .5s ease; 
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.rotated {
+    transform: rotate(90deg);
+}
+
+.nav {
+    display: none;
+}
+
+.visible {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    li {
+        padding-top: 10px;
+        text-align: center;
+        transition: all .5s ease; 
+    }
+    li:hover {
+        opacity: .7;
+    }
+}
+
+@media screen and (min-width: 676px) {
+    .header {
+        flex-direction: row;
+        
+    }
+}
