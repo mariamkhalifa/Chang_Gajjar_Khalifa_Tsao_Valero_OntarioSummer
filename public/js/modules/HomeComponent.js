@@ -23,7 +23,7 @@ export default {
             <video class="video">
                 <source src="video/video.mp4" type="video/mp4">
             </video>
-            <h1>Where to next?</h1>
+            <h1>Where to Next?</h1>
             <h2>Ontario is Yours to Explore!</h2>
             <router-link to="/destinations">
                 <img src="public/images/1.jpg" alt="">
