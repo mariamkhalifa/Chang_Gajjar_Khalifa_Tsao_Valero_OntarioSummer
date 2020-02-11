@@ -328,6 +328,6 @@
             <p>&copy; Ontario Summer 2020. All Rights Reserved.</p>
         </footer>
     </main>
-    <script src="js/main.js" type="module"></script>
+    <script src="public/js/main.js" type="module"></script>
 </body>
 </html>
