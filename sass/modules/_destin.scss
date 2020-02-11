@@ -40,11 +40,16 @@
 }
 
 .destin-comp {
+    .destin-hero {
+        position: relative;
+        width: 100%;
+    }
     .intro {
         display: flex;
         flex-direction: column;
         background: $blue;
         padding: 20px;
+        top: -3%;
         a {
             @include copy-font;
             color: $white;
