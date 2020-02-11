@@ -20,7 +20,7 @@ export default {
             </ul>
         </section>
         <section id="destinations" class="destin-wrapper">
-            <video autoplay muted loop controls class="video">
+            <video class="video" muted loop controls preload="metadata">
                 <source src="public/video/video.mp4" type="video/mp4">
             </video>
             <h1>Where to Next?</h1>

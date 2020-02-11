@@ -39,6 +39,24 @@
     margin-bottom: -6px;
 }
 
+.destin-comp {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        p{
+            @include copy-font;
+            color: $white;
+        }
+        h1 {
+            @include heading-font;
+        }
+        background: $blue;
+    }
+    .attract {
+
+    }
+}
+
 @media screen and (min-width:550px) {
     .destin-links {
         display: grid;
