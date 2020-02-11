@@ -31,10 +31,7 @@ export default {
     data: function() {
         return {
             herodata: [
-                {heroimg: "swo_collage_1.jpg"},
-                {heroimg: "swo_collage_2.jpg"},
-                {heroimg: "swo_collage_3.jpg"},
-                {heroimg: "swo_collage_4.jpg"},
+                {heroimg: "swo_collage.jpg"},
             ],
             intro : {
                 title: "Explore South Western Ontario",
