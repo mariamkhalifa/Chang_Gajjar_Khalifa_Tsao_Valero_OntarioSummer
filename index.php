@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel=“stylesheet” href=“https://use.typekit.net/fzo1xgx.css”>
     <link rel="stylesheet" href="css/main.css">
     <!-- see Vue Router: Introduction (https://router.vuejs.org/guide/#html) -->
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
@@ -21,7 +22,7 @@
                 <li class="nav-link"><router-link to="/">Home</router-link></li>
                 <li class="nav-link"><a href="#about">About</a></li>
                 <li class="nav-link"><a href="#destinations">Destinations</a></li>
-                <li class="nav-link"><router-link to="/subscribe">Subscribe</router-link></li>
+                <li class="nav-link"><a href="includes/admin/signup.php">Sign Up</a></li>
             </ul>
         <header>
         
