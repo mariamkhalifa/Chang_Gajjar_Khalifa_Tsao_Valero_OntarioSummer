@@ -40,17 +40,19 @@
     
     <section class="subscription">
         <?php echo !empty($message)?$message: ''; ?>
+        <img id="subBg" src="public/images/sub_ocean.jpg" alt="subscription box background">
+        <h2 id="subHead">Subscribe To Travel Tips & Deals</h2>
         <form action="index.php" method="post">
-            <label for="firstname">First Name:</label><br>
+            <label for="firstname">First Name:</label>
             <input type="text" id="firstname" name="firstname" value="" required><br>
 
-            <label for="lastname">Last Name:</label><br>
+            <label for="lastname">Last Name:</label>
             <input type="text" id="lastname" name="lastname" value="" required><br>
 
-            <label for="email">Email:</label><br>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email" value="" required><br>
 
-            <label for="country">Country:</label><br>
+            <label for="country">Country:</label>
             <select id="country" name="country" required>
                 <option value="">--please select one--</option>
                 <option value="Afganistan">Afghanistan</option>
@@ -328,6 +330,6 @@
             <p>&copy; Ontario Summer 2020. All Rights Reserved.</p>
         </footer>
     </main>
-    <script src="js/main.js" type="module"></script>
+    <script src="public/js/main.js" type="module"></script>
 </body>
 </html>
