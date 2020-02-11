@@ -50,11 +50,11 @@ function signup($fname, $lname, $email, $country, $reqtime){
             $message .= '<h4>HERRRRRROOOOOOO.</h4>';
             $message .= '<h5>HERRRRRROOOOOOO.</h5>';
             $message .= '</body></html>';
-            // if(mail($recipient, $subject, $message, $headers)){
-            //     return 'Welcome back! We have sent you a welcome back email.';
-            // }else{
-            //     return 'Sorry, something went wrong with the email address!';
-            // }
+            if(mail($recipient, $subject, $message, $headers)){
+                return 'Welcome back! We have sent you a welcome back email.';
+            }else{
+                return 'Sorry, something went wrong with the email address!';
+            }
         }
         
     }else{
@@ -85,11 +85,11 @@ function signup($fname, $lname, $email, $country, $reqtime){
         $message .= '<h4>HERRRRRROOOOOOO.</h4>';
         $message .= '<h5>HERRRRRROOOOOOO.</h5>';
         $message .= '</body></html>';
-        // if(mail($recipient, $subject, $message, $headers)){
-        //     return 'Subscribed! We have sent you an welcome email!';
-        // }else{
-        //     return 'Sorry, something went wrong with the email address!';
-        // }
+        if(mail($recipient, $subject, $message, $headers)){
+            return 'Subscribed! We have sent you an welcome email!';
+        }else{
+            return 'Sorry, something went wrong with the email address!';
+        }
         
     }
 
