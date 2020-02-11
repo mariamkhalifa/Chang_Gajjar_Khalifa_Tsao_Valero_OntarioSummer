@@ -40,22 +40,32 @@
     
     <section class="subscription">
         <?php echo !empty($message)?$message: ''; ?>
-        <img id="subBg" src="public/images/sub_ocean.jpg" alt="subscription box background">
+        <!-- <img class="subBg" src="public/images/sub_ocean.jpg" alt="subscription box background">
+        <img class="subBgt" src="public/images/sub_ocean_t.jpg" alt="subscription box background">
+        <img class="subBgm" src="public/images/sub_ocean_m.jpg" alt="subscription box background"> -->
+        <img id="subExit" src="public/images/No.svg" alt="sub exit">
         <h2 id="subHead">Subscribe To Travel Tips & Deals</h2>
         <form action="index.php" method="post">
-            <label for="firstname">First Name:</label>
-            <input type="text" id="firstname" name="firstname" value="" required><br>
+            <div class="input-wrap">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" value="" required>
+            </div>
+            <div class="input-wrap">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" value="" required>
+            </div>
+            
+            <div class="input-wrap">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="" required>
+            </div>
 
-            <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" name="lastname" value="" required><br>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" value="" required><br>
-
-            <label for="country">Country:</label>
-            <select id="country" name="country" required>
-                <?php include 'countries_form.php';?>
-            </select>
+            <div class="input-wrap">
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <?php include 'countries_form.php';?>
+                </select>
+            </div>
 
             <input name="submit" type="submit" id="submit" value="SUBMIT">
         </form>
