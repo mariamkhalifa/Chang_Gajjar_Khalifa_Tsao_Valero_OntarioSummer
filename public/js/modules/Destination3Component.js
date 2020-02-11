@@ -16,7 +16,7 @@ export default {
             <a href="https://www.inspirock.com/canada/ontario-trip-planner">Plan Your Itinerary</a>
         </div>
         <div class="attract">
-            <div v-for="(item, index) in attractdata" class="attract"
+            <div v-for="(item, index) in attractdata" class="attract-wrapper"
             :key="index">
                 <div class="attract-item">
                     <img :src="'public/images/' + item.icon" alt="icon">
@@ -41,7 +41,7 @@ export default {
                 galore.`
             },
             attractdata : [
-                { name: "Advntures", icon: "adventure.svg", desc:  `Eastern Ontario is known for its white
+                { name: "Adventures", icon: "adventure.svg", desc:  `Eastern Ontario is known for its white
                 water rafting but you can also find ATVs,
                 adventure parks, ropes challenges,
                 canoeing & kayaking trips and

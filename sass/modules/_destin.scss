@@ -43,17 +43,50 @@
     .intro {
         display: flex;
         flex-direction: column;
+        background: $blue;
+        padding: 20px;
+        a {
+            @include copy-font;
+            color: $white;
+            padding: 20px;
+            background-color: $orange;
+            text-align: center;
+        }
+
         p{
             @include copy-font;
             color: $white;
+            margin-bottom: 40px;
         }
         h1 {
             @include heading-font;
+            margin-bottom: 20px;
         }
-        background: $blue;
     }
     .attract {
-
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+    }
+    .attract-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        justify-content: center;
+        align-items: center;
+        .attract-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-self: center;
+        }
+        h3 {
+            @include heading-font;
+            font-size: 2em;
+            margin: 1em 0em;
+            text-align: center;
+        }
     }
 }
 
@@ -62,10 +95,28 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+
+    .destin-comp {
+        .intro {
+            padding: 40px 80px;
+        }
+        .attract {
+            padding: 0px 40px;
+        }
 }
 
 @media screen and (min-width:950px) {
     .destin-links {
         grid-template-columns: repeat(3,1fr);
+    }
+    .destin-comp {
+        .intro {
+            padding: 100px;
+        }
+        .attract-wrapper{
+            max-width: 50%;
+            padding: 3em;
+        }
+    }
     }
 }

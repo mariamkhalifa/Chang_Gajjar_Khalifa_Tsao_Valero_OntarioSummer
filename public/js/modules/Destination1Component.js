@@ -18,7 +18,7 @@ export default {
             <a href="https://www.inspirock.com/canada/ontario-trip-planner">Plan Your Itinerary</a>
         </div>
         <div class="attract">
-            <div v-for="(item, index) in attractdata" class="attract"
+            <div v-for="(item, index) in attractdata" class="attract-wrapper"
             :key="index">
                 <div class="attract-item">
                     <img :src="'public/images/' + item.icon" alt="icon">
@@ -42,7 +42,7 @@ export default {
                 there's something for every traveller to enjoy!`
             },
             attractdata : [
-                { name: "Advntures", icon: "adventure.svg", desc:  `If energetic outdoor activities are your
+                { name: "Adventures", icon: "adventure.svg", desc:  `If energetic outdoor activities are your
                 summer fun, you'll find an adrenaline
                 rush in Toronto, Mississauga, Markham,
                 Oakville, Richmond Hill & Pickering.

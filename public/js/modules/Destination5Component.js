@@ -16,7 +16,7 @@ export default {
             <a href="https://www.inspirock.com/canada/ontario-trip-planner">Plan Your Itinerary</a>
         </div>
         <div class="attract">
-            <div v-for="(item, index) in attractdata" class="attract"
+            <div v-for="(item, index) in attractdata" class="attract-wrapper"
             :key="index">
                 <div class="attract-item">
                     <img :src="'public/images/' + item.icon" alt="icon">
@@ -40,7 +40,7 @@ export default {
                 Bay or learn about the fur trade at an authentic site of the Hudson Bay Company.`
             },
             attractdata : [
-                { name: "Advntures", icon: "adventure.svg", desc:  `Northern Ontario is a vast wilderness,
+                { name: "Adventures", icon: "adventure.svg", desc:  `Northern Ontario is a vast wilderness,
                 interspersed with populated cities. Take
                 advantage of all nature has to offer,
                 from whitewater rafting to zip lining at

@@ -16,7 +16,7 @@ export default {
             <a href="https://www.inspirock.com/canada/ontario-trip-planner">Plan Your Itinerary</a>
         </div>
         <div class="attract">
-            <div v-for="(item, index) in attractdata" class="attract"
+            <div v-for="(item, index) in attractdata" class="attract-wrapper"
             :key="index">
                 <div class="attract-item">
                     <img :src="'public/images/' + item.icon" alt="icon">
@@ -40,7 +40,7 @@ export default {
                 plan your visit to coincide with one of the SW region's many Festivals, Fairs & Shows.`
             },
             attractdata : [
-                { name: "Advntures", icon: "adventure.svg", desc:  `While we say 'adventures', not all of
+                { name: "Adventures", icon: "adventure.svg", desc:  `While we say 'adventures', not all of
                 these are full-on adrenaline rush
                 experience. But they are outdoor and
                 Southwestern Ontario has lots to choose
