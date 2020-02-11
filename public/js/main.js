@@ -1,3 +1,8 @@
+// (()=> {
+
+
+// })();
+
 // 2. import components we can request and render
 import HomeComponent from "./modules/HomeComponent.js";
 import Destination1Component from "./modules/Destination1Component.js";
@@ -45,3 +50,23 @@ const vm = new Vue({
 
     router
 }).$mount("#app");
+
+
+const   su = document.querySelector("#subscription"),
+        suExit = document.querySelector("#subExit"),
+        suOpen = document.querySelector("#suOpen");
+
+
+function openSU() {
+    su.classList.remove("hidden");
+    console.log("please sign up");
+}
+
+suOpen.addEventListener("click", openSU);
+
+function closeSU() {
+    su.classList.add("hidden");
+    console.log("close sign up");
+}
+
+suExit.addEventListener("click", closeSU);
