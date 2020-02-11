@@ -6,12 +6,10 @@ export default {
 
     template: `
     <section class="destin-comp">
-        <div class="destin-hero">
-            <img v-for="(img, index) in herodata" 
-            class="destin-hero"
-            :key="index"
-            :src="'public/images/' + img.heroimg" alt="hero image">
-        </div>
+        <img v-for="(img, index) in herodata" 
+        class="destin-hero"
+        :key="index"
+        :src="'public/images/' + img.heroimg" alt="hero image">
         <div class="intro">
             <h1>{{ intro.title }}</h1>
             <p>{{ intro.text }}</p>
@@ -33,10 +31,7 @@ export default {
     data: function() {
         return {
             herodata: [
-                {heroimg: "gta_collage_1.jpg"},
-                {heroimg: "gta_collage_2.jpg"},
-                {heroimg: "gta_collage_3.jpg"},
-                {heroimg: "gta_collage_4.jpg"},
+                {heroimg: "gta_collage.jpg"},
             ],
             intro : {
                 title: "Explore Greater Toronto",

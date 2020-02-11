@@ -31,10 +31,7 @@ export default {
     data: function() {
         return {
             herodata: [
-                {heroimg: "no_collage_1.jpg"},
-                {heroimg: "no_collage_2.jpg"},
-                {heroimg: "no_collage_3.jpg"},
-                {heroimg: "no_collage_4.jpg"},
+                {heroimg: "no_collage.jpg"}
             ],
             intro : {
                 title: "Explore Northern Ontario",
