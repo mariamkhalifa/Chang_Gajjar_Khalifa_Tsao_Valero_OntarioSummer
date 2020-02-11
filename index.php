@@ -28,7 +28,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
     <link rel="stylesheet" href="https://use.typekit.net/fzo1xgx.css">
     <link rel="stylesheet" href="public/css/main.css">
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
@@ -42,7 +42,7 @@
         
         <a id="subExit"><img src="public/images/No.svg" alt="sub exit"></a>
         <h2 id="subHead">Subscribe To Travel Tips & Deals</h2>
-        <?php echo !empty($message)?$message: ''; ?>
+        
         <form action="index.php" method="post">
             <div class="input-wrap">
                 <label for="firstname">First Name:</label>
@@ -71,7 +71,7 @@
 
     <main id="app">
         <?php include 'nav.php';?>
-        
+        <?php echo !empty($message)?$message: ''; ?>
         <router-view></router-view>
 
         <?php include 'footer.php';?>

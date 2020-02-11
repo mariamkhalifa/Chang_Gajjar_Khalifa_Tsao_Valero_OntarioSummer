@@ -44,7 +44,8 @@ const vm = new Vue({
 
 const   su = document.querySelector("#subscription"),
         suExit = document.querySelector("#subExit"),
-        suOpen = document.querySelector("#suOpen");
+        suOpen = document.querySelector("#suOpen"),
+        subNo = document.querySelector("#submit");
 
 
 function openSU() {
@@ -52,11 +53,24 @@ function openSU() {
     console.log("please sign up");
 }
 
-suOpen.addEventListener("click", openSU);
+function keepSU() {
+    su.classList.remove("hidden");
+    console.log("still signing up");
+}
 
 function closeSU() {
     su.classList.add("hidden");
     console.log("close sign up");
 }
 
+subNo.addEventListener("click", keepSU);
+suOpen.addEventListener("click", openSU);
 suExit.addEventListener("click", closeSU);
+
+const echoM = document.querySelector(".echoM");
+
+if(echoM === null) {
+    console.log('sign up ready');
+} else {
+    echoM.classList.add("flip-out-hor-top");
+}
