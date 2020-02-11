@@ -31,10 +31,7 @@ export default {
     data: function() {
         return {
             herodata: [
-                {heroimg: "niagara_collage_1.jpg"},
-                {heroimg: "niagara_collage_2.jpg"},
-                {heroimg: "niagara_collage_3.jpg"},
-                {heroimg: "niagara_collage_4.jpg"},
+                {heroimg: "niagara_collage.jpg"},
             ],
             intro : {
                 title: "Explore Niagara Region",

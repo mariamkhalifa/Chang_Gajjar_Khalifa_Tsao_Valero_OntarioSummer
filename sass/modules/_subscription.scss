@@ -1,3 +1,41 @@
+.echoM {
+    color: $white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding: 20px;
+    background-color: $orange;
+}
+.flip-out-hor-top {
+	-webkit-animation: flip-out-hor-top 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: flip-out-hor-top 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes flip-out-hor-top {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateX(70deg);
+              transform: rotateX(70deg);
+      opacity: 0;
+    }
+  }
+  @keyframes flip-out-hor-top {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateX(70deg);
+              transform: rotateX(70deg);
+      opacity: 0;
+    }
+  }
+  
 .subscription {
     position: fixed;
     // width: 100%;
@@ -14,10 +52,7 @@
     background: url("../../public/images/sub_ocean.jpg") no-repeat center;
     background-size: cover;
     justify-content: center;
-    .echoM {
-        color: $white;
-        
-    }
+    
     #subExit {
         // position: absolute;
         // width: 10%;

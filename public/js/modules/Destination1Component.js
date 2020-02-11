@@ -33,10 +33,7 @@ export default {
     data: function() {
         return {
             herodata: [
-                {heroimg: "gta_collage_1.jpg"},
-                {heroimg: "gta_collage_2.jpg"},
-                {heroimg: "gta_collage_3.jpg"},
-                {heroimg: "gta_collage_4.jpg"},
+                {heroimg: "gta_collage.jpg"},
             ],
             intro : {
                 title: "Explore Greater Toronto",

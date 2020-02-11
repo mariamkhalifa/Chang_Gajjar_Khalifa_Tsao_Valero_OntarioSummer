@@ -42,7 +42,7 @@
         
         <a id="subExit"><img src="public/images/No.svg" alt="sub exit"></a>
         <h2 id="subHead">Subscribe To Travel Tips & Deals</h2>
-        <?php echo !empty($message)?$message: ''; ?>
+        
         <form action="index.php" method="post">
             <div class="input-wrap">
                 <label for="firstname">First Name:</label>
@@ -71,7 +71,7 @@
 
     <main id="app">
         <?php include 'nav.php';?>
-        
+        <?php echo !empty($message)?$message: ''; ?>
         <router-view></router-view>
 
         <?php include 'footer.php';?>
