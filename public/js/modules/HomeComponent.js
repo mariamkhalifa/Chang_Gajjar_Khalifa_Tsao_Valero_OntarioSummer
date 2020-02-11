@@ -25,30 +25,32 @@ export default {
             </video>
             <h1>Where to Next?</h1>
             <h2>Ontario is Yours to Explore!</h2>
-            <router-link to="/destinations">
-                <img src="public/images/tile_1.jpg" alt="GTA image">
-                <p>Greater Toronto Area</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/tile_2.jpg" alt="niagara image">
-                <p>Niagara Region</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/tile_3.jpg" alt="eastern ontrio image">
-                <p>Eastern Ontario</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/tile_4.jpg" alt="central ontario image">
-                <p>Central Ontario</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/tile_5.jpg" alt="northern ontario image">
-                <p>Northern Ontario</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/tile_6.jpg" alt="south western ontrio image">
-                <p>South Western Ontario</p>
-            </router-link>
+            <div class="destin-links">
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_1.jpg" alt="GTA image">
+                    <h3>Greater Toronto Area</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_2.jpg" alt="niagara image">
+                    <h3>Niagara Region</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_3.jpg" alt="eastern ontrio image">
+                    <h3>Eastern Ontario</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_4.jpg" alt="central ontario image">
+                    <h3>Central Ontario</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_5.jpg" alt="northern ontario image">
+                    <h3>Northern Ontario</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_6.jpg" alt="south western ontrio image">
+                    <h3>South Western Ontario</h3>
+                </router-link>
+            </div>
         </section>
     </div>
     `,
