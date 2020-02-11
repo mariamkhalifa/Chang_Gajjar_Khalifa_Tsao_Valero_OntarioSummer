@@ -6,6 +6,7 @@
 @import 'modules/_destin';
 @import 'modules/_footer';
 @import 'modules/_subscription';
+@import 'modules/_error';
 
 /* reset */
 * {
@@ -15,7 +16,7 @@
 html, body { height: 100%; }
 
 body {
-    @include copy-font
+    @include copy-font;
 }
 
 h1, h2 {

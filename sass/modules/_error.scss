@@ -1,0 +1,19 @@
+.error-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+
+    a {
+        display: flex;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: $orange;
+        color: $white;
+        margin-top: 3em;
+    }
+}
