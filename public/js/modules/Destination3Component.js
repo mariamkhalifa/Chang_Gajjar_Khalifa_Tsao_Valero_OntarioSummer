@@ -31,10 +31,7 @@ export default {
     data: function() {
         return {
             herodata: [
-                {heroimg: "eo_collage_1.jpg"},
-                {heroimg: "eo_collage_2.jpg"},
-                {heroimg: "eo_collage_3.jpg"},
-                {heroimg: "eo_collage_4.jpg"},
+                {heroimg: "eo_collage.jpg"}
             ],
             intro : {
                 title: "Explore Eastern Ontario",

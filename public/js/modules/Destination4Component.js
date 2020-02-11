@@ -31,10 +31,7 @@ export default {
     data: function() {
         return {
             herodata: [
-                {heroimg: "co_collage_1.jpg"},
-                {heroimg: "co_collage_2.jpg"},
-                {heroimg: "co_collage_3.jpg"},
-                {heroimg: "co_collage_4.jpg"},
+                {heroimg: "co_collage.jpg"},
             ],
             intro : {
                 title: "Explore Central Ontario",
