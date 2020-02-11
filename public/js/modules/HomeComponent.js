@@ -21,34 +21,36 @@ export default {
         </section>
         <section id="destinations" class="destin-wrapper">
             <video class="video">
-                <source src="video/video.mp4" type="video/mp4">
+                <source src="public/video/video.mp4" type="video/mp4">
             </video>
-            <h1>Where to next?</h1>
+            <h1>Where to Next?</h1>
             <h2>Ontario is Yours to Explore!</h2>
-            <router-link to="/destinations">
-                <img src="public/images/1.jpg" alt="">
-                <p>Greater Toronto Area</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/2.jpg" alt="">
-                <p>Niagara Region</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/3.jpg" alt="">
-                <p>Eastern Ontario</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/4.jpg" alt="">
-                <p>Central Ontario</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/5.jpg" alt="">
-                <p>Northern Ontario</p>
-            </router-link>
-            <router-link to="/destinations">
-                <img src="public/images/6.jpg" alt="">
-                <p>South Western Ontario</p>
-            </router-link>
+            <div class="destin-links">
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_1.jpg" alt="GTA image">
+                    <h3>Greater Toronto Area</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_2.jpg" alt="niagara image">
+                    <h3>Niagara Region</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_3.jpg" alt="eastern ontrio image">
+                    <h3>Eastern Ontario</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_4.jpg" alt="central ontario image">
+                    <h3>Central Ontario</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_5.jpg" alt="northern ontario image">
+                    <h3>Northern Ontario</h3>
+                </router-link>
+                <router-link to="/destinations">
+                    <img class="destin-img" src="public/images/tile_6.jpg" alt="south western ontrio image">
+                    <h3>South Western Ontario</h3>
+                </router-link>
+            </div>
         </section>
     </div>
     `,
