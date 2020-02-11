@@ -1,3 +1,8 @@
 export default {
-    template: `<h1>That page doesn't exist</h1>`
+    template: `
+        <main class="error-wrapper">
+            <h1>Oops! Looks like you're lost.</h1>
+            <router-link to="/">Go back home</router-link>
+        </main>
+    `
 }
