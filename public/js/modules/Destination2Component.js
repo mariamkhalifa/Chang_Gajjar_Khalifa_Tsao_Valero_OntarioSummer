@@ -16,7 +16,7 @@ export default {
             <a href="https://www.inspirock.com/canada/ontario-trip-planner">Plan Your Itinerary</a>
         </div>
         <div class="attract">
-            <div v-for="(item, index) in attractdata" class="attract"
+            <div v-for="(item, index) in attractdata" class="attract-wrapper"
             :key="index">
                 <div class="attract-item">
                     <img :src="'public/images/' + item.icon" alt="icon">
@@ -43,7 +43,7 @@ export default {
                 Niagara.`
             },
             attractdata : [
-                { name: "Advntures", icon: "adventure.svg", desc:  `If outdoor activities are your thing, you'll
+                { name: "Adventures", icon: "adventure.svg", desc:  `If outdoor activities are your thing, you'll
                 find loads of adventures in the Niagara
                 Region. Try helicopter tours over
                 Niagara Falls or boat rides under the

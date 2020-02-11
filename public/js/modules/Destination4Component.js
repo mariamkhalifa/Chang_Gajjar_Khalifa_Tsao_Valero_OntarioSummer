@@ -16,7 +16,7 @@ export default {
             <a href="https://www.inspirock.com/canada/ontario-trip-planner">Plan Your Itinerary</a>
         </div>
         <div class="attract">
-            <div v-for="(item, index) in attractdata" class="attract"
+            <div v-for="(item, index) in attractdata" class="attract-wrapper"
             :key="index">
                 <div class="attract-item">
                     <img :src="'public/images/' + item.icon" alt="icon">
@@ -43,7 +43,7 @@ export default {
                 and the sandy beaches of Cobourg and Presqu'ile Provincial Park.`
             },
             attractdata : [
-                { name: "Advntures", icon: "adventure.svg", desc:  `Much of the Central Ontarioregion is
+                { name: "Adventures", icon: "adventure.svg", desc:  `Much of the Central Ontarioregion is
                 known as ‘Cottage Country’ and the
                 reason people have cottages there is to
                 take advantage of the gorgeous scenery.
