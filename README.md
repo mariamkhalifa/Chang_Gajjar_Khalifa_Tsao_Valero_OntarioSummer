@@ -1,6 +1,6 @@
 # Ontario Summer
 
-![OntarioSummer Logo](public/images/logo.svg)
+<img src="/public/images/logo.svg" alt="Ontario Summer Logo" width="150">
 
 ## Find Yourself At Home.
 
@@ -35,11 +35,11 @@ To install: `npm install`
 
 ## Authors
 
-* **Kahani** - *Project Manager* - https://github.com/Kahani22
-* **Mariam** - *Motion Designer* - https://github.com/mariamkhalifa
+* **Kayla** - *PM and Motion Designer* - https://github.com/kchang00
+* **Mariam** - *Front-End* - https://github.com/mariamkhalifa
 * **Sandra** - *Back-End* - https://github.com/SandraTsao
+* **Kahani** - *Designer* - https://github.com/Kahani22
 * **Luisa** - *Designer* - https://github.com/LuDesigner
-* **Kayla** - *Front-End* - https://github.com/kchang00
 
 ## Acknowledgment/References
 * Icon made by [http://www.freepik.com] from www.flaticon.com
