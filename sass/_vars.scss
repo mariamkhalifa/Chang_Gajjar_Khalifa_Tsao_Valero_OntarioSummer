@@ -1,5 +1,29 @@
-$heading-color: #333;
-$copy-color: #666;
-$main-color: salmon;
-$heading-font: arial;
-$copy-font: arial; 
+$orange: #DD6C4E; 
+$blue:#0F323D;
+$white:#FFFDF2;
+
+@mixin heading-font {
+    font-size: 2.5em;
+    color: $orange;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    // line-height: 1em;
+    // letter-spacing: .1rem;
+}
+
+@mixin subtitle-font {
+    font-size: 2.5em;
+    color: $orange;
+    font-family: futura-pt-bold, sans-serif;
+    // line-height: 1em;
+    // letter-spacing: .1rem;
+}
+
+@mixin copy-font {
+    font-size: 1.3em;
+    color: $blue;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    // line-height: 1em;
+    // letter-spacing: .1rem;
+}

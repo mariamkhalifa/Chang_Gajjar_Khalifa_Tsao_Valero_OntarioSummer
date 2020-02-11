@@ -15,17 +15,15 @@
 html, body { height: 100%; }
 
 body {
-    font-family: $copy-font;
-    color: $copy-color;
+    @include copy-font
 }
 
 h1, h2 {
-    color: $heading-color;
-    font-family: $heading-font;
+    @include heading-font;
 }
 
 a {
-    color: $copy-color;
+    color: $blue;
     text-decoration: none;
 }
 
